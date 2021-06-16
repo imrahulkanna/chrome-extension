@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "One-Click",
+    "description": "Quich Access to your frequently used sites",
+    "version": "0.0.1",
+    "icons": {
+        "128": "social-media-128.png"
+    },
+    "browser_action": {
+        "default_icon": "social-media-19.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
