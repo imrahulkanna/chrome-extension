@@ -1,0 +1,15 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+}
+
+body {
+    margin: 10px;
+}
+
+.logo-icon {
+    width: 85px;
+    vertical-align: middle;
+}
