@@ -1,15 +1,79 @@
 * {
-     box-sizing: border-box;
-     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
     font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 304px;
+    height: 300px;
+    font-size: 14px;
+    overflow: auto;
+}
+
 body {
-    margin: 10px;
+    background-color: rgb(231, 228, 228);
 }
 
 .logo-icon {
-    width: 85px;
+    width: 75px;
     vertical-align: middle;
+    
 }
+
+.logo {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    color: purple;
+}
+
+.version {
+    color: #444444;
+    font-weight: lighter;
+}
+
+.ext-content {
+    margin: 0;
+    padding-left: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #726a6a;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+.group-title {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 24px;
+    padding-top: 0px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex {
+    font-size: 40px;
+    
+    margin: 0 20px;
+    transition: opacity 0.2s ease-in-out;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: purple;
+
+}
+
+a:hover {
+    color: purple;
+}
+
