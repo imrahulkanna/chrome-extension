@@ -12,11 +12,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="toggle-bar">
+        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
     <div class="ext-header">
         <h1 class="logo">
         <img src="images/social-media.png" alt="One-Click" class="logo-icon">One-Click <span class="version">(0.0.1)</span>
         </h1>
-    </div>
+    </div> 
     <div class="ext-content">
         <p>One-click far from all your favoutite sites</p>
     </div>
@@ -24,27 +32,25 @@
         <h2 class="group-title">Developer Tools</h2>
         <div class="flex-container">
             <div class="flex">
-                <a href="https://github.com/" target="_blank" class="icons github"></a>
+                <a title="Github" href="https://github.com/" target="_blank" class="icons github"></a>
             </div>
             <div class="flex">
-                <a href="https://stackoverflow.com/" target="_blank" class="icons stack-overflow">
-                    <i class="fab fa-stack-overflow"></i>
-                </a>
+                <a title="Stack Overflow" href="https://stackoverflow.com/" target="_blank" class="icons stack-overflow"></a>
             </div>
             <div class="flex">
-                <a href="https://www.freecodecamp.org/learn/" target="_blank" class="icons free-code-camp">
-                </a>
+                <a title="Free Code Camp" href="https://www.freecodecamp.org/learn/" target="_blank" class="icons free-code-camp"></a>
             </div>
             <div class="flex">
-                <a href="https://gmail.com/" target="_blank" class="icons gmail"></a>
+                <a title="G-Mail" href="https://gmail.com/" target="_blank" class="icons gmail"></a>
             </div>
             <div class="flex">
-                <a href="https://gmail.com/" target="_blank" class="icons digital-ocean"></a>
+                <a title="Digital Ocean" href="https://cloud.digitalocean.com/ target="_blank" class="icons digital-ocean"></a>
             </div>
             <div class="flex">
-                <a href="https://hub.docker.com/" target="_blank" class="icons docker"></a>
+                <a title="Docker" href="https://hub.docker.com/" target="_blank" class="icons docker"></a>
             </div>
         </div>
     </div>
+    <script src="popup.js"></script>
 </body>
 </html>
