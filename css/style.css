@@ -148,6 +148,8 @@ a:hover {
     color: violet;
 }
 
+/*Icons*/
+
 .icons::before {
     display: inline-block;
     font-family: "Font Awesome 5 Brands"; 
@@ -156,6 +158,8 @@ a:hover {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
+
+/*Developer Tools*/
 
 .github::before{
     content: "\f09b";
@@ -181,6 +185,31 @@ a:hover {
 
 .docker::before {
     content: "\f395";
+}
+
+/*Social Media*/
+.twitter::before {
+    content: "\f099";
+}
+
+.instagram::before {
+    content: "\f16d"
+}
+
+.whatsapp::before {
+    content: "\f232";
+}
+
+.facebook::before {
+    content: "\f09a";
+}
+
+.linkedin::before {
+    content: "\f0e1";
+}
+
+.telegram::before {
+        content: "\f3fe";
 }
 
 /* when dark theme is toggled*/
