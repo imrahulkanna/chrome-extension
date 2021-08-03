@@ -159,6 +159,27 @@ a:hover {
     -webkit-font-smoothing: antialiased;
 }
 
+.add-on
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: purple;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.add-on>a {
+    
+    position:absolute;
+    left:27%;
+    top:-26%;
+    color: violet;
+    text-decoration: none; 
+}
+
 /*Developer Tools*/
 
 .github::before{
